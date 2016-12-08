@@ -91,7 +91,6 @@ class Nod(object):
 
                 # pentru testare adaugam scoaterea imediata din lista si trimiterea la client
                 m1 = lista_date.get()
-                # print(m)   # comentat de radu
                 clientsocket.send(m1.encode("utf-8"))
 
                 while i < relatii:
